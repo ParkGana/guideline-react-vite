@@ -1,7 +1,8 @@
 import { Navigate, Outlet } from 'react-router-dom';
+import { useAuth } from '../providers/authProvider';
 
 const NonAuthenticatedRoute = () => {
-  const isAuthenticated = false;
+  const { isAuthenticated } = useAuth();
 
   // 로그인 되어있는 경우 / 경로로 redirect
   if (isAuthenticated) return <Navigate to="/" replace />;
