@@ -5,11 +5,13 @@ import NonAuthenticatedRoute from './routes/nonAuthenticatedRoute';
 import SignInPage from './pages/SignIn';
 import TailwindPage from './pages/Tailwind';
 import TodoPage from './pages/Todo';
+import StyledPage from './pages/Styled';
 
 const Router = () => {
   return (
     <Routes>
       <Route path="/tailwind" element={<TailwindPage />} />
+      <Route path="/styled" element={<StyledPage />} />
 
       <Route path="/todo" element={<TodoPage />} />
 
