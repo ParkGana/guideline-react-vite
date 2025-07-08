@@ -8,6 +8,7 @@ import TodoPage from './pages/Todo';
 import StyledPage from './pages/Styled';
 import PokemonPage from './pages/Pokemon';
 import PostPage from './pages/Post';
+import TeamPage from './pages/Team';
 
 const Router = () => {
   return (
@@ -16,6 +17,7 @@ const Router = () => {
       <Route path="/styled" element={<StyledPage />} />
 
       <Route path="/todo" element={<TodoPage />} />
+      <Route path="/team" element={<TeamPage />} />
       <Route path="/pokemon" element={<PokemonPage />} />
       <Route path="/post" element={<PostPage />} />
 

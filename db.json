@@ -1,5 +1,67 @@
 {
   "todos": [],
+  "teams": [
+    {
+      "id": "kia",
+      "name": "기아 타이거즈",
+      "img_url": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/KBOHome/resources/images/emblem/regular/2022/HT.png",
+      "liked": false
+    },
+    {
+      "id": "doosan",
+      "name": "두산 베어스",
+      "img_url": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/KBOHome/resources/images/emblem/regular/2025/OB.png",
+      "liked": false
+    },
+    {
+      "id": "lotte",
+      "name": "롯데 자이언츠",
+      "img_url": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/KBOHome/resources/images/emblem/regular/2022/LT.png",
+      "liked": true
+    },
+    {
+      "id": "samsung",
+      "name": "삼성 라이온즈",
+      "img_url": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/KBOHome/resources/images/emblem/regular/2022/SS.png",
+      "liked": false
+    },
+    {
+      "id": "kiwoom",
+      "name": "키움 히어로즈",
+      "img_url": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/KBOHome/resources/images/emblem/regular/2022/WO.png",
+      "liked": false
+    },
+    {
+      "id": "hanhwa",
+      "name": "한화 이글스",
+      "img_url": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/KBOHome/resources/images/emblem/regular/2025/HH.png",
+      "liked": false
+    },
+    {
+      "id": "kt",
+      "name": "KT 위즈",
+      "img_url": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/KBOHome/resources/images/emblem/regular/2022/KT.png",
+      "liked": false
+    },
+    {
+      "id": "lg",
+      "name": "LG 트윈스",
+      "img_url": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/KBOHome/resources/images/emblem/regular/2022/LG.png",
+      "liked": false
+    },
+    {
+      "id": "nc",
+      "name": "NC 다이노스",
+      "img_url": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/KBOHome/resources/images/emblem/regular/2022/NC.png",
+      "liked": false
+    },
+    {
+      "id": "ssg",
+      "name": "SSG 랜더스",
+      "img_url": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/KBOHome/resources/images/emblem/regular/2024/SK.png",
+      "liked": false
+    }
+  ],
   "pokemons": [
     {
       "id": 1,
