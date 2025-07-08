@@ -19,7 +19,7 @@ const StyledPage = () => {
   return (
     <div className="flex flex-col gap-10">
       <div className="flex flex-col gap-3">
-        <p className="w-fit text-xl font-bold border-2 border-black px-2 py-1">COLOR</p>
+        <p className="w-fit text-xl font-bold border-2 border-gray-900 px-2 py-1">COLOR</p>
         <div className="flex">
           <Color $color="gray100" />
           <Color $color="gray200" />
@@ -33,7 +33,7 @@ const StyledPage = () => {
         </div>
       </div>
       <div className="flex flex-col gap-3">
-        <p className="w-fit text-xl font-bold border-2 border-black px-2 py-1">TYPOGRAPHY</p>
+        <p className="w-fit text-xl font-bold border-2 border-gray-900 px-2 py-1">TYPOGRAPHY</p>
         <div>
           <Typography $text="title">TEXT</Typography>
           <Typography $text="label">TEXT</Typography>
@@ -42,7 +42,7 @@ const StyledPage = () => {
         </div>
       </div>
       <div className="flex flex-col gap-3">
-        <p className="w-fit text-xl font-bold border-2 border-black px-2 py-1">TYPOGRAPHY &#40;반응형&#41;</p>
+        <p className="w-fit text-xl font-bold border-2 border-gray-900 px-2 py-1">TYPOGRAPHY &#40;반응형&#41;</p>
         <div>
           <Typography $text="responsiveTitle">TEXT</Typography>
           <Typography $text="responsiveLabel">TEXT</Typography>
