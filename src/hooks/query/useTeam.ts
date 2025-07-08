@@ -11,7 +11,7 @@ export const useTeam = () => {
     queryFn: fetchTeamsAPI
   });
 
-  /* Team 수정 */
+  /* Team 수정 (낙관적 업데이트) */
   const updateTeamMutation = useMutation({
     mutationFn: updateTeamAPI,
     onMutate: async ({ id, liked }) => {

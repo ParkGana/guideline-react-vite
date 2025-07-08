@@ -11,8 +11,8 @@ const TodoItem = ({ data: { id, title, completed } }: TodoItemProps) => {
 
   /* Todo 수정 */
   const handleUpdateTodo = () => {
-    // await updateTodoAPI({ id, title, completed: !completed });
-    updateTodoMutation.mutate({ id, title, completed: !completed });
+    // await updateTodoAPI({ id, completed: !completed });
+    updateTodoMutation.mutate({ id, completed: !completed });
   };
 
   /* Todo 삭제 */

@@ -32,7 +32,7 @@ const PokemonList = () => {
           {page.data.map(({ id, name, img_url }) => (
             <div key={id} className="flex flex-col items-center gap-2 border-4 border-gray-300 p-3">
               <img src={img_url} width={100} />
-              <p>{name}</p>
+              <p className="text-body">{name}</p>
             </div>
           ))}
         </>

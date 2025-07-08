@@ -21,9 +21,9 @@ export const createTodoAPI = async (title: string): Promise<void> => {
 };
 
 /* Todo 수정 */
-export const updateTodoAPI = async ({ id, title, completed }: TodoType): Promise<void> => {
+export const updateTodoAPI = async ({ id, completed }: Pick<TodoType, 'id' | 'completed'>): Promise<void> => {
   try {
-    await api.patch(`/todos/${id}`, { title, completed });
+    await api.patch(`/todos/${id}`, { completed });
   } catch (e: any) {
     throw e.response.data;
   }
