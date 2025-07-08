@@ -3,10 +3,13 @@ import HomePage from './pages/Home';
 import AuthenticatedRoute from './routes/authenticatedRoute';
 import NonAuthenticatedRoute from './routes/nonAuthenticatedRoute';
 import SignInPage from './pages/SignIn';
+import TailwindPage from './pages/Tailwind';
 
 const Router = () => {
   return (
     <Routes>
+      <Route path="/tailwind" element={<TailwindPage />} />
+
       {/* 로그인 되어있는 경우에만 접속 가능한 경로들 */}
       <Route element={<AuthenticatedRoute />}>
         <Route path="/" element={<HomePage />} />
