@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
 import type { RootState } from '../redux/store';
-import { minusNumber, plusNumber } from '../redux/reducers/counter';
+import { minusNumber, plusNumber } from '../redux/slices/counterSlice';
 
 const CounterPage = () => {
   const dispatch = useDispatch();
