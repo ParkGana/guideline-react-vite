@@ -8,6 +8,7 @@ import TodoPage from './pages/Todo';
 import StyledPage from './pages/Styled';
 import PokemonPage from './pages/Pokemon';
 import PostPage from './pages/Post';
+import CounterPage from './pages/Counter';
 
 const Router = () => {
   return (
@@ -18,6 +19,7 @@ const Router = () => {
       <Route path="/todo" element={<TodoPage />} />
       <Route path="/pokemon" element={<PokemonPage />} />
       <Route path="/post" element={<PostPage />} />
+      <Route path="/counter" element={<CounterPage />} />
 
       {/* 로그인 되어있는 경우에만 접속 가능한 경로들 */}
       <Route element={<AuthenticatedRoute />}>
