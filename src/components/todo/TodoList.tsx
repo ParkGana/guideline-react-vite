@@ -1,5 +1,5 @@
+import { useTodo } from '@/hooks/query/useTodo';
 import TodoItem from './TodoItem';
-import { useTodo } from '../../hooks/query/useTodo';
 
 const TodoList = () => {
   // const [todos, setTodos] = useState<TodoType[]>([]);

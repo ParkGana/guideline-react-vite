@@ -1,5 +1,5 @@
+import type { theme } from '@/styles/theme';
 import styled, { css } from 'styled-components';
-import type { theme } from '../styles/theme';
 
 const Color = styled.div<{ $color: keyof typeof theme.color }>`
   ${({ theme, $color }) => `

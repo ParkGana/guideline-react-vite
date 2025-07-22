@@ -1,4 +1,4 @@
-import type { PostInfiniteQueryType } from '../types/postType';
+import type { PostInfiniteQueryType } from '@/types/postType';
 import api from './api';
 
 /* Post 목록 가져오기 */

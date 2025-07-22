@@ -1,5 +1,5 @@
+import { fetchPostsAPI } from '@/api/Post';
 import { useInfiniteQuery } from '@tanstack/react-query';
-import { fetchPostsAPI } from '../../api/Post';
 
 export const usePost = () => {
   /* Post 목록 가져오기 */

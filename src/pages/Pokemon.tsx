@@ -1,4 +1,4 @@
-import PokemonList from '../components/pokemon/PokemonList';
+import PokemonList from '@/components/pokemon/PokemonList';
 
 const PokemonPage = () => {
   return (

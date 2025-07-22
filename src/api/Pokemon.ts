@@ -1,4 +1,4 @@
-import type { PokemonInfiniteQueryType } from '../types/pokemonType';
+import type { PokemonInfiniteQueryType } from '@/types/pokemonType';
 import api from './api';
 
 /* Pokemon 목록 가져오기 */

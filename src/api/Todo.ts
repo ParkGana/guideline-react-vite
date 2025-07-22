@@ -1,5 +1,5 @@
+import type { TodoType } from '@/types/todoType';
 import api from './api';
-import type { TodoType } from '../types/todoType';
 
 /* Todo 목록 가져오기 */
 export const fetchTodosAPI = async (): Promise<TodoType[]> => {

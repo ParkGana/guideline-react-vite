@@ -1,5 +1,5 @@
-import TodoCreate from '../components/todo/TodoCreate';
-import TodoList from '../components/todo/TodoList';
+import TodoCreate from '@/components/todo/TodoCreate';
+import TodoList from '@/components/todo/TodoList';
 
 const TodoPage = () => {
   return (

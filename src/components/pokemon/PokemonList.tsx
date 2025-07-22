@@ -1,5 +1,5 @@
+import { usePokemon } from '@/hooks/query/usePokemon';
 import { useEffect, useRef } from 'react';
-import { usePokemon } from '../../hooks/query/usePokemon';
 
 const PokemonList = () => {
   const {

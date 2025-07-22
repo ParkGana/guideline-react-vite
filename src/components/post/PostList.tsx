@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import clsx from 'clsx';
-import { usePost } from '../../hooks/query/usePost';
+import { usePost } from '@/hooks/query/usePost';
 
 const PostList = () => {
   const {

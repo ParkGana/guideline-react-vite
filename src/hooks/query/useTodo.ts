@@ -1,6 +1,6 @@
+import { createTodoAPI, deleteTodoAPI, fetchTodosAPI, updateTodoAPI } from '@/api/Todo';
+import type { TodoType } from '@/types/todoType';
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
-import { createTodoAPI, deleteTodoAPI, fetchTodosAPI, updateTodoAPI } from '../../api/Todo';
-import type { TodoType } from '../../types/todoType';
 import { v4 as uuidv4 } from 'uuid';
 
 export const useTodo = () => {

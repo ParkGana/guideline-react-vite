@@ -1,6 +1,6 @@
+import { useTodo } from '@/hooks/query/useTodo';
+import type { TodoType } from '@/types/todoType';
 import clsx from 'clsx';
-import type { TodoType } from '../../types/todoType';
-import { useTodo } from '../../hooks/query/useTodo';
 
 type TodoItemProps = {
   data: TodoType;

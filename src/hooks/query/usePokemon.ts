@@ -1,5 +1,5 @@
+import { fetchPokemonsAPI } from '@/api/Pokemon';
 import { useInfiniteQuery } from '@tanstack/react-query';
-import { fetchPokemonsAPI } from '../../api/Pokemon';
 
 export const usePokemon = () => {
   /* Pokemon 목록 가져오기 */

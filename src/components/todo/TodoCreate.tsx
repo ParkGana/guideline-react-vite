@@ -1,5 +1,5 @@
+import { useTodo } from '@/hooks/query/useTodo';
 import { useState } from 'react';
-import { useTodo } from '../../hooks/query/useTodo';
 
 const TodoCreate = () => {
   const { createTodoMutation } = useTodo();
