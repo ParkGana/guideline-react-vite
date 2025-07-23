@@ -15,5 +15,10 @@
 }
 
 body {
+  -ms-overflow-style: none;
   background-color: var(--gray-100);
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
